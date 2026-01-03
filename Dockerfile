@@ -8,6 +8,6 @@ RUN apk update && \
       py3-pip \
       ffmpeg \
       bash && \
-    pip3 install --no-cache-dir edge-tts
+    pip3 install --no-cache-dir --break-system-packages edge-tts
 
 USER node
